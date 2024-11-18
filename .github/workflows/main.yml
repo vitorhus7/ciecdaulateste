@@ -1,7 +1,7 @@
 name: CiCD Cypress
 
 on:   
-  pull_request:
+  push:
     branches:
       - main
 
