@@ -6,7 +6,7 @@ on:
       - main
 
 
-  jobs:
+jobs:
     run-cypress-test:
       runs-on: ubuntu-latest
 
