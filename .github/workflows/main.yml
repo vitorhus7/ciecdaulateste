@@ -22,6 +22,11 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run Cypress Tests
-        run: npm test
+      - name: Cypress run
+        uses: cypress-io/github-action@v6
+        with:
+          working-directory: cypress
+          browser: chrome
+
+        
       
